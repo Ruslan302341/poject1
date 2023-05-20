@@ -8,6 +8,8 @@
 import Foundation
 
 struct TaskItem: Codable {
+    
     var name: String
+   
     var isComplete = false
 }
